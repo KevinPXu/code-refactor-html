@@ -3,11 +3,11 @@
   padding: 0;
   margin: 0;
 }
-
+/* Provides the primary background color for the site */
 body {
   background-color: #d9dcd6;
 }
-
+/* Provides the font and background color of the nav bar */
 .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -15,16 +15,16 @@ body {
   background-color: #2a607c;
   color: #ffffff;
 }
-
+/* Makes the main title into an inline element and setting the font so the Horiseon logo shows correctly */
 .header h1 {
   display: inline-block;
   font-size: 48px;
 }
-
+/* Changes the color of the "SEO" characters on the left of the nav bar */
 .header h1 .seo {
   color: #d9dcd6;
 }
-
+/* Formats the nav bar list of links making sure they are evenly spaced and with the proper font and size */
 .header section {
   padding-top: 15px;
   margin-right: 20px;
@@ -32,25 +32,28 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
 }
-
+/* Explicitly states the list style type to none */
 .header section ul {
   list-style-type: none;
 }
 
+/* ensures the nav bar list is inline causing it to be in a row format */
 .header section ul li {
   display: inline-block;
   margin-left: 25px;
 }
 
+/* makes all the a tags have white color font with no text decoration */
 a {
   color: #ffffff;
   text-decoration: none;
 }
 
+/* Sets paragraph information font size */
 p {
   font-size: 16px;
 }
-
+/* Sets the background image using below URL and sets the proper dimensions and alignment on the page */
 .hero {
   height: 800px;
   width: 100%;
@@ -59,50 +62,23 @@ p {
   background-size: cover;
   background-position: center;
 }
-
+/* for images with class float-left, will cause image to align to the left side of the allocated space */
 .float-left {
   float: left;
   margin-right: 25px;
 }
-
+/* for images with class float-right, will cause image to align to the right side of the allocated space */
 .float-right {
   float: right;
   margin-left: 25px;
 }
-
+/* Formats the main content of the page */
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
-
-.benefits {
-  margin-right: 20px;
-  padding: 20px;
-  clear: both;
-  float: right;
-  width: 20%;
-  height: 100%;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #2589bd;
-}
-
-.benefits article {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-/* removed repetitive selectors for main section of webpage as well as column on the side */
-
-.benefits article h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefits article img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
+/* changed name for images classes to consolidate selectors. Formats the block in the main column of the page*/
 
 .mainBlock {
   margin-bottom: 20px;
@@ -113,15 +89,46 @@ p {
   color: #ffffff;
 }
 
+/* Formats the images in the main column to be the same size */
 .mainBlock img {
   max-height: 200px;
 }
-
+/* Formats the headers in the main column to be spaced the same and have the same size */
 .mainBlock h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
 
+/* Formats the side bar of the page */
+.benefits {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2589bd;
+}
+/* Sets the color of the font for the side bar to white and sets a margin at the bottom */
+.benefits article {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+/* removed repetitive selectors for main section of webpage as well as column on the side. Aligns the text to the center of the allocated space */
+
+.benefits article h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+/* formats the pictures in the side bar to the same size */
+
+.benefits article img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+/* Formats the footer of of the page */
 .footer {
   padding: 30px;
   clear: both;
@@ -129,7 +136,7 @@ p {
     "Lucida Sans", Arial, sans-serif;
   text-align: center;
 }
-
+/* formats the header in the footer to be the same size */
 .footer h2 {
   font-size: 20px;
 }

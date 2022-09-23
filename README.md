@@ -19,7 +19,7 @@ This project was used to teach myself about semantic HTML tags and how to proper
 ```HTML
  <div class="hero"></div>
     <div class="content">
-        <div class="search-engine-optimization">
+        <div class="search-engine-optimization">c
 ```
 
 above the non-semantic div tags were changed to semantic tags below, Also a image alt text was added here for an image that was placed in the CSS file.
